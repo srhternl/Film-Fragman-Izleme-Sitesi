@@ -4651,11 +4651,13 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  margin-right:60px;
+  margin-top:-5px;
 }
 
 .navbar-toggler:hover,
@@ -18824,10 +18826,24 @@ screen and (max-height: 300px) {
 #small-dialog2,
 #small-dialog3,
 #small-dialog4,
-#small-dialog5 {
-  max-width: 750px;
-  margin: 40px auto;
-  position: relative;
+#small-dialog5,
+#small-dialog6,
+#small-dialog7,
+#small-dialog8,
+#small-dialog9,
+#small-dialog10,
+#small-dialog11,
+#small-dialog12,
+#small-dialog13,
+#small-dialog14,
+#small-dialog15,
+#small-dialog16,
+#small-dialog17,
+#small-dialog18,
+#small-dialog19 {
+    max-width: 750px;
+    margin: 40px auto;
+    position: relative;
 }
 
 div#small-dialog iframe,
@@ -18835,11 +18851,25 @@ div#small-dialog1 iframe,
 div#small-dialog2 iframe,
 div#small-dialog3 iframe,
 div#small-dialog4 iframe,
-#small-dialog5 {
-  width: 100%;
-  height: 400px;
-  display: block;
-  border-radius: 10px;
+div#small-dialog5 iframe,
+div#small-dialog6 iframe,
+div#small-dialog7 iframe,
+div#small-dialog8 iframe,
+div#small-dialog9 iframe,
+div#small-dialog10 iframe,
+div#small-dialog11 iframe,
+div#small-dialog12 iframe,
+div#small-dialog13 iframe,
+div#small-dialog14 iframe,
+div#small-dialog15 iframe,
+div#small-dialog16 iframe,
+div#small-dialog17 iframe,
+div#small-dialog18 iframe,
+#small-dialog19 {
+    width: 100%;
+    height: 400px;
+    display: block;
+    border-radius: 10px;
 }
 
 /**
@@ -19398,8 +19428,8 @@ nav {
 .theme-switch {
   display: inline-block;
   position: relative;
-  width: 60px;
-  margin: 0;
+  width: 20px;
+  margin-right: 20px;
 }
 
 .theme-switch input {
