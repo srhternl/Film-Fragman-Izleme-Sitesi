@@ -38,11 +38,7 @@ namespace FilmPuanlamaSitesi.Controllers
                 await HttpContext.SignInAsync(principal);
                 return RedirectToAction("Index", "Film");
             }
-            else
-            {
-                ModelState.AddModelError("", "Invalid login attempt");
-                return View(); 
-            }
+                return View();
                 
         }
 

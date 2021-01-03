@@ -591,10 +591,3 @@ C:\Users\Home\Desktop\git\Web-Programlama\FilmPuanlamaSitesi\FilmPuanlamaSitesi\
 C:\Users\Home\Desktop\git\Web-Programlama\FilmPuanlamaSitesi\FilmPuanlamaSitesi\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\Home\Desktop\git\Web-Programlama\FilmPuanlamaSitesi\FilmPuanlamaSitesi\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_TRFilmLayout.cshtml.g.cs
 C:\Users\Home\Desktop\git\Web-Programlama\FilmPuanlamaSitesi\FilmPuanlamaSitesi\obj\Debug\netcoreapp3.1\Razor\Views\Film\TRIndex.cshtml.g.cs
-C:\Users\Home\Desktop\git\Web-Programlama\FilmPuanlamaSitesi\FilmPuanlamaSitesi\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Home\Desktop\git\Web-Programlama\FilmPuanlamaSitesi\FilmPuanlamaSitesi\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\Home\Desktop\git\Web-Programlama\FilmPuanlamaSitesi\FilmPuanlamaSitesi\bin\Debug\netcoreapp3.1\Microsoft.Owin.dll
-C:\Users\Home\Desktop\git\Web-Programlama\FilmPuanlamaSitesi\FilmPuanlamaSitesi\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.dll
-C:\Users\Home\Desktop\git\Web-Programlama\FilmPuanlamaSitesi\FilmPuanlamaSitesi\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.Cookies.dll
-C:\Users\Home\Desktop\git\Web-Programlama\FilmPuanlamaSitesi\FilmPuanlamaSitesi\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.OAuth.dll
-C:\Users\Home\Desktop\git\Web-Programlama\FilmPuanlamaSitesi\FilmPuanlamaSitesi\bin\Debug\netcoreapp3.1\Owin.dll
