@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FilmPuanlamaSitesi.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20210101201134_hata3")]
-    partial class hata3
+    [Migration("20210102002317_admin5")]
+    partial class admin5
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -52,12 +52,15 @@ namespace FilmPuanlamaSitesi.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("KullaniciAd")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Sifre")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
@@ -146,21 +149,6 @@ namespace FilmPuanlamaSitesi.Migrations
                     b.ToTable("Genres");
                 });
 
-            modelBuilder.Entity("FilmPuanlamaSitesi.Models.Siniflar.Hata", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
-
-                    b.Property<string>("Mesaj")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("Hatas");
-                });
-
             modelBuilder.Entity("FilmPuanlamaSitesi.Models.Siniflar.Kullanici", b =>
                 {
                     b.Property<int>("ID")
@@ -169,12 +157,15 @@ namespace FilmPuanlamaSitesi.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("KullaniciAd")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Sifre")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
