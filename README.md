@@ -1,2 +1,1 @@
-# Web-Programlama
-Web Programlama Proje Ödevi
+# ASP.Net Core MVC ile Film Fragmanı İzleme Sitesi
