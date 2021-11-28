@@ -1,0 +1,33 @@
+﻿@model FilmPuanlamaSitesi.Models.Siniflar.Admin
+@{
+    ViewData["Title"] = "AddAdmin";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div style="margin-right:750px; margin-top:100px; color:aqua;">
+    <br />
+    <form class="form-group" method="post">
+        <label>ID</label>
+        <br />
+        @Html.TextBoxFor(x => x.ID, new { @class = "form-control", @readonly = "readonly" })
+        <br />
+        <label>Kullanıcı Adı</label>
+        <br />
+        @Html.TextBoxFor(x => x.KullaniciAd, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.KullaniciAd, "", new { @style = "color:blue" })
+        <br />
+        <label>Email</label>
+        <br />
+        @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Email, "", new { @style = "color:blue" })
+        <br />
+        <label>Şifre</label>
+        <br />
+        @Html.TextBoxFor(x => x.Sifre, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Sifre, "", new { @style = "color:blue" })
+        <br />
+        <div style="margin-top:10px;">
+            <button class="btn btn-primary">Add Admin</button>
+        </div>
+    </form>
+</div>
