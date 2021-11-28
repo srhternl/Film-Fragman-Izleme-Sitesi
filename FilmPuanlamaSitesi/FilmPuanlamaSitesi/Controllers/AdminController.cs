@@ -28,10 +28,6 @@ namespace FilmPuanlamaSitesi.Controllers
         [HttpPost]
         public IActionResult AddAdmin(Admin a)
         {
-            if (!ModelState.IsValid)
-            {
-                return View("AddAdmin");
-            }
             c.Admins.Add(a);
             c.SaveChanges();
             return RedirectToAction("Index");

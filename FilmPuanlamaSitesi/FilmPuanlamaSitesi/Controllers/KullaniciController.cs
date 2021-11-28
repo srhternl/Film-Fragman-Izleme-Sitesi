@@ -28,10 +28,6 @@ namespace FilmPuanlamaSitesi.Controllers
         [HttpPost]
         public IActionResult AddUser(Kullanici k)
         {
-            if (!ModelState.IsValid)
-            {
-                return View("AddUser");
-            }
             c.Kullanicis.Add(k);
             c.SaveChanges();
             return RedirectToAction("Index");

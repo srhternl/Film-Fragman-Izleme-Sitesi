@@ -18,11 +18,7 @@ namespace FilmPuanlamaSitesi.Controllers
         {
             return View();
         }
-        public IActionResult About()
-        {
-            return View();
-        }
-        
+
         [HttpGet]
         [Authorize]
         public IActionResult Contact()
